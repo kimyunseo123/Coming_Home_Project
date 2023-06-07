@@ -165,28 +165,28 @@ public class NoteAdapter extends RecyclerView.Adapter<NoteAdapter.ViewHolder>
         public void setMoodImage(int moodIndex) {
             switch(moodIndex) {
                 case 0:
-                    moodImageView.setImageResource(R.drawable.smile1_48);
-                    moodImageView2.setImageResource(R.drawable.smile1_48);
+                    moodImageView.setImageResource(R.drawable.dog);
+                    moodImageView2.setImageResource(R.drawable.dog);
                     break;
                 case 1:
-                    moodImageView.setImageResource(R.drawable.smile2_48);
-                    moodImageView2.setImageResource(R.drawable.smile2_48);
+                    moodImageView.setImageResource(R.drawable.dog);
+                    moodImageView2.setImageResource(R.drawable.dog);
                     break;
                 case 2:
-                    moodImageView.setImageResource(R.drawable.smile3_48);
-                    moodImageView2.setImageResource(R.drawable.smile3_48);
+                    moodImageView.setImageResource(R.drawable.dog);
+                    moodImageView2.setImageResource(R.drawable.dog);
                     break;
                 case 3:
-                    moodImageView.setImageResource(R.drawable.smile4_48);
-                    moodImageView2.setImageResource(R.drawable.smile4_48);
+                    moodImageView.setImageResource(R.drawable.dog);
+                    moodImageView2.setImageResource(R.drawable.dog);
                     break;
                 case 4:
-                    moodImageView.setImageResource(R.drawable.image01);
-                    moodImageView2.setImageResource(R.drawable.image01);
+                    moodImageView.setImageResource(R.drawable.dog);
+                    moodImageView2.setImageResource(R.drawable.dog);
                     break;
                 default:
-                    moodImageView.setImageResource(R.drawable.smile3_48);
-                    moodImageView2.setImageResource(R.drawable.smile3_48);
+                    moodImageView.setImageResource(R.drawable.dog);
+                    moodImageView2.setImageResource(R.drawable.dog);
                     break;
             }
         }

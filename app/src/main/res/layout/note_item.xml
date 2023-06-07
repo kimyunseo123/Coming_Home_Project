@@ -24,7 +24,7 @@
             android:layout_height="54dp"
             android:layout_gravity="center_vertical"
             android:padding="5dp"
-            app:srcCompat="@drawable/image01" />
+            app:srcCompat="@drawable/dog" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -103,7 +103,7 @@
             android:layout_gravity="center_vertical"
             android:layout_margin="10dp"
             android:padding="5dp"
-            android:src="@drawable/noimagefound" />
+            android:src="@drawable/dog" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -135,7 +135,7 @@
                     android:layout_height="32dp"
                     android:layout_alignParentLeft="true"
                     android:padding="5dp"
-                    android:src="@drawable/image01" />
+                    android:src="@drawable/dog" />
 
                 <ImageView
                     android:id="@+id/weatherImageView2"

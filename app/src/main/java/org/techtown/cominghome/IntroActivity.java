@@ -14,7 +14,7 @@ public class IntroActivity extends Activity {
         handler.postDelayed(new Runnable(){
             @Override
             public void run() {
-                Intent intent = new Intent (getApplicationContext(), AnimalActivity.class);
+                Intent intent = new Intent (getApplicationContext(), LoginActivity.class);
                 startActivity(intent); //다음화면으로 넘어감
                 finish();
             }

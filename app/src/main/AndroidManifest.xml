@@ -37,6 +37,14 @@
             android:windowSoftInputMode="adjustPan">
         </activity>
 
+        <activity android:name="org.techtown.cominghome.LoginActivity" android:label="로그인" android:exported="true"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+
+        <activity android:name="org.techtown.cominghome.RegisterActivity" android:label="회원가입" android:exported="true"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+
         <activity android:name="org.techtown.cominghome.CenterListActivity" android:label="동물보호소 찾기" android:exported="true"/>
         <activity android:name="org.techtown.cominghome.DetailActivity" android:exported="false" android:label="동물보호소 찾기"  />
 

@@ -53,6 +53,8 @@
         <activity android:name="org.techtown.cominghome.DifficultyEasyActivity" android:label="난이도 하"  android:exported="true"/>
         <activity android:name="org.techtown.cominghome.QuizActivity" android:label="퀴즈 페이지"  android:exported="true"/>
 
+        <activity android:name="org.techtown.cominghome.MypageActivity" android:label="마이페이지"  android:exported="true"/>
+
 
         <provider
             android:name="androidx.core.content.FileProvider"
